@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="author" content="Adargoma Reina Santana">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./index.css">
+
+        <title>Mi factura</title>
+
+    </head>
+
+    <body>
+
+        <main>  <!--Este es el padre, el recuadro principal-->
+
+            <section class="primero">
+
+                <img src="./Avengers.jpg" alt="Logo empresa">
+
+                <ul id="info1">
+
+                    <li>Industrias StarFuerte</li>
+
+                    <li>CIF: 12345678-G</li>
+
+                    <li>C/Forjadores</li>
+
+                    <li>Isla del Hierro</li>
+
+                    <li>España</li>
+
+                </ul>
+
+                <div id="info2">
+
+                    <h1>Factura</h1>
+
+                        <ul>
+
+                            <li>Número: 1</li>
+
+                            <li>Fecha: 30/04/2021</li>
+
+                        </ul>
+
+                </div>
+
+            </section>
+
+            <section class="segundo">
+
+                <h3>Datos del cliente</h3>
+
+                <table class="tablas">
+
+                    <tr>
+
+                        <td>Cliente</td>
+
+                        <td class="borde_negro">Tío Sam</td>
+
+                        <td>CIF</td>
+
+                        <td class="borde_negro">94-66666666</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Dirección</td>
+
+                        <td class="borde_negro">Calle Luis Doreste Silva</td>
+
+                        <td>Provincia:</td>
+
+                        <td class="borde_negro">Las Palmas</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>País</td>
+
+                        <td class="borde_negro">España</td>
+
+                    </tr>
+
+                </table>
+
+                <h3>Líneas de factura</h3>
+
+                <table class="tablas">
+
+                    <tr>
+
+                        <td>Cantidad</td>
+
+                        <td>Artículo</td>
+
+                        <td>Precio</td>
+
+                        <td>Subtotal</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="borde_negro">1</td>
+
+                        <td class="borde_negro">AR001-Armadura de oro reluciente</td>
+
+                        <td class="borde_negro">350.000€</td>
+
+                        <td class="borde_negro">350.000€</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="borde_negro">3</td>
+
+                        <td class="borde_negro">ES002-Escudo antiproyectiles</td>
+
+                        <td class="borde_negro">50.000€</td>
+
+                        <td class="borde_negro">150.000€</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td class="borde_negro">Base Imposible</td>
+
+                        <td class="borde_negro">500.000€</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td class="borde_negro">Descuento</td>
+
+                        <td class="borde_negro">0€</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td class="borde_negro">IGIC 20%</td>
+
+                        <td class="borde_negro">100.000€</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td class="borde_negro">Total Neto</td>
+
+                        <td class="borde_negro">600.000€</td>
+
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <br>
+
+            <section class="tercero">
+
+                <fieldset>
+
+                    <legend>Forma de pago y Datos bancarios</legend>
+
+                    <form action="#">
+
+                        <div class="form1">
+
+                            <input type="checkbox" name="Pago" id="pago">
+
+                                <label for="pago">Pago al contado</label>   <br>
+
+                            <input type="checkbox" name="Pago2" id="pago2">
+
+                                <label for="pago2">Pago domiciliado</label> <br>
+
+                            <input type="checkbox" name="Pago3" id="Pago3">
+
+                                <label for="pago3">Pago con tarjeta</label>
+
+                        </div>
+
+                        <div class="form2">
+
+                            <label for="Entidad">Entidad:</label>
+
+                                <input type="text" name="entidad" id="entidad"> <br>
+
+                            <label for="cuenta">Número de cuenta:</label>
+
+                                <input type="text" name="cuenta" id="cuenta">
+
+                        </div>
+
+                        <div id="enviar">
+
+                            <input type="submit" value="Enviar formulario" id="boton">
+
+                        </div>
+
+                    </form>
+                    
+
+                </fieldset>
+
+            </section>
+
+        </main>
+    
+    </body>
+
+    </html>
